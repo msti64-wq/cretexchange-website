@@ -1,0 +1,16 @@
+{
+  "name": "cretexchange-marketing-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  }
+}
