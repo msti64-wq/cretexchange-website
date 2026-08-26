@@ -103,7 +103,7 @@ h1 span { color: var(--blue); }
 .legal-hero p:not(.eyebrow) { max-width: 760px; color: #f4f7fa; font-size: 18px; font-weight: 520; line-height: 1.65; }
 .legal-hero span { display: block; margin-top: 25px; color: #b8dafa; font-size: 13px; font-weight: 650; }
 .legal-hero img { width: 210px; height: 210px; object-fit: contain; border-radius: 50%; box-shadow: 0 25px 55px rgba(0,0,0,.35); }
-.legal-document { max-width: 980px; margin: 0 auto; padding: 90px 40px 120px; color: #343b43; font-size: 16px; line-height: 1.75; }
+.legal-document { width: 100%; max-width: none; margin: 0; padding: 90px max(40px,calc((100vw - 900px)/2)) 120px; background: #ffffff; color: #27313b; font-size: 16px; font-weight: 450; line-height: 1.75; }
 .legal-document > p:first-child { padding: 28px 32px; border-left: 4px solid var(--blue); background: #f2f6fa; color: var(--slate); font-size: 17px; }
 .legal-document section { padding: 38px 0; border-bottom: 1px solid #d7dadd; }
 .legal-document h2 { margin-bottom: 18px; color: var(--slate); font-size: clamp(25px,3vw,34px); letter-spacing: -.025em; }
