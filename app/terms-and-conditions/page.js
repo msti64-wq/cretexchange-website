@@ -1,5 +1,6 @@
 import {LegalPage,LegalSection} from "../legal-content";
 export const metadata={title:"Terms and Conditions | CreteXchange",description:"Terms governing use of the CreteXchange website and platform."};
+export const dynamic="force-static";
 export default function Terms(){return <LegalPage eyebrow="Legal" title="Terms and Conditions" intro="These terms govern access to and use of the CreteXchange website, platform, and related services." updated="August 26, 2026">
   <p>These Terms and Conditions (the “Terms”) are an agreement between you and V8 Industries LLC, the operator of CreteXchange (“CreteXchange,” “we,” “us,” or “our”). By accessing or using CreteXchange, you agree to these Terms. If you do not agree, do not use the service.</p>
   <LegalSection title="1. Eligibility and authority"><p>You must be at least 18 years old and legally able to enter a binding agreement. If you use CreteXchange for a company or other organization, you represent that you have authority to bind that organization.</p></LegalSection>
