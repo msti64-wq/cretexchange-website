@@ -5,10 +5,6 @@ export const metadata = {
   description:
     "CreteXchange connects drivers, facilities, contractors and public-sector partners through verified construction-recycling destinations and material recovery intelligence.",
   metadataBase: new URL("https://www.cretexchange.com"),
-  icons: {
-    icon: "/cretexchange-mark.jpg",
-    shortcut: "/cretexchange-mark.jpg",
-  },
   openGraph: {
     title: "CreteXchange",
     description: "The digital ecosystem for construction recycling and material exchange.",
